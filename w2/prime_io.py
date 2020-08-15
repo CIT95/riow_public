@@ -16,10 +16,7 @@ while run == 'Y':
     if(start < end):
 
         #https://www.geeksforgeeks.org/python-program-to-print-all-prime-numbers-in-an-interval/
-
-        #I did some minor modification
-        #I will cover this part in the video
-        for val in range(start, end + 1):
+         for val in range(start, end + 1):
             if val > 1:
                 stop = (val//2 + 2)
                 for n in range(2, stop):
@@ -29,7 +26,7 @@ while run == 'Y':
                         if n == val//2 + 1:
                             print(str(val) + ': is a prime number')
     else:
-        print('Starting number needs to be greater than ending number')
+        print('Starting number needs to be less than ending number')
 
     #ask user if they run to run the code again
     print('Run again? Y for yes')
