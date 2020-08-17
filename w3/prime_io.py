@@ -14,7 +14,6 @@ def isPrime(val):
                 if n == val//2 + 1:
                     print(str(val) + ': is a prime number')
 
-
 run = 'Y'
 while run == 'Y':
     
