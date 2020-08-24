@@ -1,10 +1,10 @@
 # based on a very general time to charge an electric car calcuation my code will 
 # suggestion of needing more kWh or if it is fine with this level. 
 
-def timeToCharge(kWh, percentFull):
+def timeToCharge(kWh = 2, percentFull=.05):
     return kWh / ((1 - percentFull) * 72)
 
-def determineNextSteps(time):
+def determineNextSteps(time=0):
     if(time < 1):
         print('need more kWh')
     else:
@@ -17,6 +17,11 @@ determineNextSteps(chargeTime)
 chargeTime = timeToCharge(6, .10)
 print(chargeTime)
 determineNextSteps(chargeTime)
+
+chargeTime = timeToCharge()
+print(chargeTime)
+determineNextSteps(chargeTime)
+
 
 
 """ def checkInput(user, message):
