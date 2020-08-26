@@ -1,5 +1,6 @@
 try:
-    import numpy
+    ## import numpy
+    import pyperclip
 except ImportError:
     print('Library import not successful, check install')
 else:
