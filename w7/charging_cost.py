@@ -50,6 +50,10 @@ sort_charging = sorted(charging_sessions.items(), key=lambda x: x[1])
 print(sort_charging)
 #output - [('publicChargers', 1), ('superChargers', 5), ('home', 20)]
 
+sort_charging_reverse = sorted(charging_sessions.items(), key=lambda x: x[1],reverse=True)
+#[('home', 20), ('superChargers', 5), ('publicChargers', 1)]
+print(sort_charging_reverse)
+
 #list of dd
 charging_session = [{
     'location': 'home',
@@ -80,7 +84,7 @@ charging_session = [{
 #iterate over the list of dd and output summary data
 #https://blog.finxter.com/how-to-filter-a-list-of-dictionaries-in-python/
 
-filter_by_location = [location for location in charging_session if location['location'] == 'home']
+filter_by_location = [session for session in charging_session if session['location'] == 'home']
 print(filter_by_location)
 
 #output - [{'location': 'home', 'time': 4, 'cost': 4.5}, {'location': 'home', 'time': 3, 'cost': 3.5}, {'location': 'home', 'time': 2, 'cost': 2.5}]
