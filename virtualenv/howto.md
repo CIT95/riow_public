@@ -28,3 +28,6 @@ Make sure you have a virtual enivornment before doing the next step. If you don'
 3. Install required libraries <br>
 <code>pip3 install -r requirements.txt</code>
 4. Run python file 
+
+5. Decativate the virtualenv <br>
+<code>deactivate</code>

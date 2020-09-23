@@ -2,10 +2,12 @@
 
 ## How to setup and run my code
 
-1. At the command line run this command to install all the required libraries. </br>
+1. Clone my public repo into your local system. 
+
+2. At the command line run this command to install all the required libraries. </br>
 <code> pip install -r requirements.txt</code>
 
-2. Optional - if you want to have my libraries installed into a virtual enivornment do that setup work before running the pip install above. 
+3. Optional - if you want to have my libraries installed into a virtual enivornment do that setup work before running the pip install above. 
 
 >> 1.  Create a new virtual environment inside the directory
     <code>python3 -m venv dirname</code>
