@@ -7,6 +7,7 @@ def getUserInput(message):
 def isPrime(val):
     if val > 1:
         stop = (val//2 + 2)
+        
         for n in range(2, stop):
             if (val % n) == 0:
                 break

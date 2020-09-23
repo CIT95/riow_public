@@ -58,7 +58,6 @@ def getUserInput(message):
 #function takes in selection (intergar) and returns user selection as str or error
 #note: will refactor for try except
 
-
 def determineRPS_str(selection):
     if(selection == 1):
         return('rock')
@@ -75,7 +74,6 @@ def determineRPS_str(selection):
 
 
 def gamePlays():
-
     print('------------------------------------Game Plays-------------------------------')
     numGames = random.randrange(1, 11)
     for i in range(1, numGames):
