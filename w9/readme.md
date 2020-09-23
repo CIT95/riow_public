@@ -7,7 +7,7 @@
 2.  Create a new virtual environment inside the w9 directory
     <code>python3 -m venv dirname</code>
 3. add .gitignore <br>in the dirname and place * in that file to not have any of the files tracked in this directory    
-4. Activate virtual enivornment</br>
+4. Activate virtual environment</br>
 >> Mac and Linux </br>
     <code>source dirname/bin/activate </code>      
 >> Windows </br>
@@ -17,7 +17,7 @@
 5. At the command line run this command to install all the required libraries. </br>
 <code> pip3 install -r requirements.txt</code>
 
-6. Run my code 
+6. Run my code </br>
 <code>python myapp.py</code>
 
 ## Thanks for running my code
