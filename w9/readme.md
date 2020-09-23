@@ -17,4 +17,7 @@
 5. At the command line run this command to install all the required libraries. </br>
 <code> pip3 install -r requirements.txt</code>
 
+6. Run my code 
+<code>python myapp.py</code>
+
 ## Thanks for running my code
