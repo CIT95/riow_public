@@ -4,9 +4,9 @@
 
 1. Clone my public repo into your local system. 
 
-2.  Create a new virtual environment inside the directory
+2.  Create a new virtual environment inside the w9 directory
     <code>python3 -m venv dirname</code>
-3. add .gitignore <br>in the dirname and place * in that file to not have any of the files tracked int his folder    
+3. add .gitignore <br>in the dirname and place * in that file to not have any of the files tracked in this directory    
 4. Activate virtual enivornment</br>
 >> Mac and Linux </br>
     <code>source dirname/bin/activate </code>      
