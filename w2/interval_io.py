@@ -15,7 +15,6 @@ while run == 'Y':
     #if start is less than end give the user feedback, otherwise run code inside if statement
     if(start < end):
 
-        #https://www.geeksforgeeks.org/python-program-to-print-all-prime-numbers-in-an-interval/
 
         #I did some minor modification
         #I will cover this part in the video
